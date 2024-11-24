@@ -104,7 +104,7 @@ def ingest_data(output_dir):
 def add_to_collection(client, metadata, documents):
         try:
             client.add(
-                collection_name="clorox_version5",
+                collection_name="clorox_version2",
                 documents=documents,
                 metadata=metadata,
                 ids=tqdm(range(len(documents))),
